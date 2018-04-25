@@ -1,0 +1,46 @@
+﻿<Window x:Name="form" x:Class="MyFractal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyFractal"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="720">
+
+
+    <Grid x:Name="gr1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="267*"/>
+            <ColumnDefinition Width="86*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--<local:Julia 
+            Background="White"
+            x:Name="Jul"
+            zoom1="{Binding SelectedItems, ElementName=Zoom}"/>-->
+
+        <ComboBox Grid.Column="1" Margin="10,10,0,0" SelectionChanged="ComboBox_SelectionChanged" VerticalAlignment="Top" HorizontalAlignment="Left" Width="119">
+            <ListBoxItem Content="Fern Fractal"/>
+            <ListBoxItem Content="Pifagor Tree"/>
+            <ListBoxItem Content="Julia Set"/>
+            <ListBoxItem Content="Julia3P"/>
+            <ListBoxItem Content="Julia4P"/>
+        </ComboBox>
+        <Slider x:Name="ZoomSlider" Grid.Column="1" HorizontalAlignment="Left" Height="20" Margin="10,80,0,0" VerticalAlignment="Top" Width="119" Minimum="1" Value="{Binding Zoom}" Maximum="15" IsEnabled="False"  />
+        <Label x:Name="ZoomLabel" Content="Zoom" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="10,57,0,0" VerticalAlignment="Top" Width="57"/>
+        <Label x:Name="MoveXLabel" Content="MoveX" Grid.Column="1" HorizontalAlignment="Left" Height="25" Margin="10,105,0,0" VerticalAlignment="Top" Width="86"/>
+        <Label x:Name="MoveYLabel" Content="MoveY" Grid.Column="1" HorizontalAlignment="Left" Margin="10,164,0,0" VerticalAlignment="Top"/>
+        <Slider x:Name="MoveXSlider" Grid.Column="1" HorizontalAlignment="Left" Height="21" Margin="10,137,0,0" VerticalAlignment="Top" Width="115" RenderTransformOrigin="0.5,0.5" Value="{Binding MoveX}" Minimum="-10" IsEnabled="False">
+            <Slider.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Slider.RenderTransform>
+        </Slider>
+        <Slider x:Name="MoveYSlider" Grid.Column="1" HorizontalAlignment="Left" Height="34" Margin="10,195,0,0" VerticalAlignment="Top" Width="120" Value="{Binding MoveY}" Minimum="-10" IsEnabled="False"/>
+    </Grid>
+</Window>

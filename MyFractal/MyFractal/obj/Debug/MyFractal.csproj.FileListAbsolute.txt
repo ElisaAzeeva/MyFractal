@@ -1,0 +1,16 @@
+C:\Users\Лиза\documents\visual studio 2017\Projects\MyFractal\MyFractal\bin\Debug\MyFractal.exe.config
+C:\Users\Лиза\documents\visual studio 2017\Projects\MyFractal\MyFractal\bin\Debug\MyFractal.exe
+C:\Users\Лиза\documents\visual studio 2017\Projects\MyFractal\MyFractal\bin\Debug\MyFractal.pdb
+C:\Users\Лиза\documents\visual studio 2017\Projects\MyFractal\MyFractal\obj\Debug\MyFractal.csprojResolveAssemblyReference.cache
+C:\Users\Лиза\documents\visual studio 2017\Projects\MyFractal\MyFractal\obj\Debug\MainWindow.g.cs
+C:\Users\Лиза\documents\visual studio 2017\Projects\MyFractal\MyFractal\obj\Debug\App.g.cs
+C:\Users\Лиза\documents\visual studio 2017\Projects\MyFractal\MyFractal\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Лиза\documents\visual studio 2017\Projects\MyFractal\MyFractal\obj\Debug\MyFractal_MarkupCompile.cache
+C:\Users\Лиза\documents\visual studio 2017\Projects\MyFractal\MyFractal\obj\Debug\MyFractal_MarkupCompile.lref
+C:\Users\Лиза\documents\visual studio 2017\Projects\MyFractal\MyFractal\obj\Debug\MainWindow.baml
+C:\Users\Лиза\documents\visual studio 2017\Projects\MyFractal\MyFractal\obj\Debug\MyFractal.g.resources
+C:\Users\Лиза\documents\visual studio 2017\Projects\MyFractal\MyFractal\obj\Debug\MyFractal.Properties.Resources.resources
+C:\Users\Лиза\documents\visual studio 2017\Projects\MyFractal\MyFractal\obj\Debug\MyFractal.csproj.GenerateResource.Cache
+C:\Users\Лиза\documents\visual studio 2017\Projects\MyFractal\MyFractal\obj\Debug\MyFractal.csproj.CoreCompileInputs.cache
+C:\Users\Лиза\documents\visual studio 2017\Projects\MyFractal\MyFractal\obj\Debug\MyFractal.exe
+C:\Users\Лиза\documents\visual studio 2017\Projects\MyFractal\MyFractal\obj\Debug\MyFractal.pdb
